@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA68D0931945A79700687719 /* jackjones_212427017.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA68D0921945A79700687719 /* jackjones_212427017.txt */; };
+		CA68D0971945A7B300687719 /* only_113327021.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA68D0961945A7B300687719 /* only_113327021.txt */; };
+		CA68D0991945A7BC00687719 /* only_113427003.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA68D0981945A7BC00687719 /* only_113427003.txt */; };
+		CA68D09B1945A7C700687719 /* selected_412427040.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA68D09A1945A7C700687719 /* selected_412427040.txt */; };
+		CA68D09F1945A7DD00687719 /* zara_0706_304.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA68D09E1945A7DD00687719 /* zara_0706_304.txt */; };
+		CA68D0A11945A7E700687719 /* zara_0706_326.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA68D0A01945A7E700687719 /* zara_0706_326.txt */; };
+		CA68D0A31945A7F100687719 /* zara_6096_451.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA68D0A21945A7F100687719 /* zara_6096_451.txt */; };
+		CA68D0A51945AF7B00687719 /* jackjones_212427006.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA68D0A41945AF7B00687719 /* jackjones_212427006.txt */; };
+		CA68D0A71945AFC100687719 /* veromode_313427011.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA68D0A61945AFC100687719 /* veromode_313427011.txt */; };
+		CAD0AFA8193B695300FC5B34 /* basichouse_HMCA723A.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFA7193B695300FC5B34 /* basichouse_HMCA723A.txt */; };
+		CAD0AFAA193B695C00FC5B34 /* basichouse_HMJP226C.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFA9193B695C00FC5B34 /* basichouse_HMJP226C.txt */; };
+		CAD0AFAE193B697500FC5B34 /* jackjones_212408029.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFAD193B697500FC5B34 /* jackjones_212408029.txt */; };
+		CAD0AFB4193B699000FC5B34 /* jackjones_212427021.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFB3193B699000FC5B34 /* jackjones_212427021.txt */; };
+		CAD0AFB8193B699E00FC5B34 /* only_113327003.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFB7193B699E00FC5B34 /* only_113327003.txt */; };
+		CAD0AFC0193B69BB00FC5B34 /* selected_412427014.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFBF193B69BB00FC5B34 /* selected_412427014.txt */; };
+		CAD0AFC8193B69DE00FC5B34 /* veromode_313327003.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFC7193B69DE00FC5B34 /* veromode_313327003.txt */; };
+		CAD0AFCC193B69EA00FC5B34 /* veromode_313427012.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFCB193B69EA00FC5B34 /* veromode_313427012.txt */; };
+		CAD0AFCE193B69F500FC5B34 /* zara_0693_329.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFCD193B69F500FC5B34 /* zara_0693_329.txt */; };
+		CAD0AFD2193B6A0400FC5B34 /* zara_0706_319.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFD1193B6A0400FC5B34 /* zara_0706_319.txt */; };
+		CAD0AFD6193B6A1300FC5B34 /* zara_1608_303.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAD0AFD5193B6A1300FC5B34 /* zara_1608_303.txt */; };
+		CAF049DC1931EED000B557F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF049DB1931EED000B557F6 /* Foundation.framework */; };
+		CAF049DE1931EED000B557F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF049DD1931EED000B557F6 /* CoreGraphics.framework */; };
+		CAF049E01931EED000B557F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF049DF1931EED000B557F6 /* UIKit.framework */; };
+		CAF049E61931EED000B557F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAF049E41931EED000B557F6 /* InfoPlist.strings */; };
+		CAF049EC1931EED000B557F6 /* zshAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF049EB1931EED000B557F6 /* zshAppDelegate.m */; };
+		CAF049EF1931EED000B557F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF049ED1931EED000B557F6 /* Main.storyboard */; };
+		CAF049F21931EED000B557F6 /* zshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF049F11931EED000B557F6 /* zshViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAF049F41931EED000B557F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF049F31931EED000B557F6 /* Images.xcassets */; };
+		CAF049FB1931EED100B557F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF049FA1931EED100B557F6 /* XCTest.framework */; };
+		CAF049FC1931EED100B557F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF049DB1931EED000B557F6 /* Foundation.framework */; };
+		CAF049FD1931EED100B557F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF049DF1931EED000B557F6 /* UIKit.framework */; };
+		CAF04A051931EED100B557F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAF04A031931EED100B557F6 /* InfoPlist.strings */; };
+		CAF04A071931EED100B557F6 /* clothes_recognizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF04A061931EED100B557F6 /* clothes_recognizationTests.m */; };
+		CAF04A131931EFA600B557F6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF04A121931EFA600B557F6 /* Accelerate.framework */; };
+		CAF04A451931F18200B557F6 /* -1_conew1.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF04A331931F18200B557F6 /* -1_conew1.png */; };
+		CAF04A461931F18200B557F6 /* 1_conew1.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF04A341931F18200B557F6 /* 1_conew1.png */; };
+		CAF04A471931F18200B557F6 /* btnsender.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF04A361931F18200B557F6 /* btnsender.m */; };
+		CAF04A481931F18200B557F6 /* jetpac.ntwk in Resources */ = {isa = PBXBuildFile; fileRef = CAF04A371931F18200B557F6 /* jetpac.ntwk */; };
+		CAF04A491931F18200B557F6 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF04A381931F18200B557F6 /* line.png */; };
+		CAF04A4B1931F18200B557F6 /* squarePNG.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF04A3A1931F18200B557F6 /* squarePNG.png */; };
+		CAF04A4C1931F18200B557F6 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAF04A3C1931F18200B557F6 /* SVProgressHUD.bundle */; };
+		CAF04A4D1931F18200B557F6 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF04A3E1931F18200B557F6 /* SVProgressHUD.m */; };
+		CAF04A4E1931F18200B557F6 /* webview.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF04A401931F18200B557F6 /* webview.m */; };
+		CAF04A4F1931F18200B557F6 /* webView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF04A411931F18200B557F6 /* webView.xib */; };
+		CAF04A501931F18200B557F6 /* webviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF04A431931F18200B557F6 /* webviewViewController.m */; };
+		CAF04A541932099700B557F6 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAF04A531932099700B557F6 /* main.mm */; };
+		CAF470FE1945F0390074AD46 /* only_113327005.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAF470FD1945F0390074AD46 /* only_113327005.txt */; };
+		CAF471001945F0500074AD46 /* jackjones_213427006.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAF470FF1945F0500074AD46 /* jackjones_213427006.txt */; };
+		CAF471021945F08A0074AD46 /* veromode_312427014.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAF471011945F08A0074AD46 /* veromode_312427014.txt */; };
+		CAF471061946067B0074AD46 /* jackjones_212427019.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAF471051946067A0074AD46 /* jackjones_212427019.txt */; };
+		CAF4710A19460A900074AD46 /* selected_412427048.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAF4710919460A900074AD46 /* selected_412427048.txt */; };
+		CAF4710C19460AAE0074AD46 /* DeepBelief.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF4710B19460AAE0074AD46 /* DeepBelief.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF049FE1931EED100B557F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF049D01931EED000B557F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF049D71931EED000B557F6;
+			remoteInfo = "clothes recognization";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA68D0921945A79700687719 /* jackjones_212427017.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jackjones_212427017.txt; sourceTree = "<group>"; };
+		CA68D0961945A7B300687719 /* only_113327021.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = only_113327021.txt; sourceTree = "<group>"; };
+		CA68D0981945A7BC00687719 /* only_113427003.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = only_113427003.txt; sourceTree = "<group>"; };
+		CA68D09A1945A7C700687719 /* selected_412427040.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = selected_412427040.txt; sourceTree = "<group>"; };
+		CA68D09E1945A7DD00687719 /* zara_0706_304.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zara_0706_304.txt; sourceTree = "<group>"; };
+		CA68D0A01945A7E700687719 /* zara_0706_326.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zara_0706_326.txt; sourceTree = "<group>"; };
+		CA68D0A21945A7F100687719 /* zara_6096_451.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zara_6096_451.txt; sourceTree = "<group>"; };
+		CA68D0A41945AF7B00687719 /* jackjones_212427006.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jackjones_212427006.txt; sourceTree = "<group>"; };
+		CA68D0A61945AFC100687719 /* veromode_313427011.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = veromode_313427011.txt; sourceTree = "<group>"; };
+		CAD0AFA7193B695300FC5B34 /* basichouse_HMCA723A.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basichouse_HMCA723A.txt; sourceTree = "<group>"; };
+		CAD0AFA9193B695C00FC5B34 /* basichouse_HMJP226C.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basichouse_HMJP226C.txt; sourceTree = "<group>"; };
+		CAD0AFAD193B697500FC5B34 /* jackjones_212408029.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jackjones_212408029.txt; sourceTree = "<group>"; };
+		CAD0AFB3193B699000FC5B34 /* jackjones_212427021.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jackjones_212427021.txt; sourceTree = "<group>"; };
+		CAD0AFB7193B699E00FC5B34 /* only_113327003.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = only_113327003.txt; sourceTree = "<group>"; };
+		CAD0AFBF193B69BB00FC5B34 /* selected_412427014.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = selected_412427014.txt; sourceTree = "<group>"; };
+		CAD0AFC7193B69DE00FC5B34 /* veromode_313327003.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = veromode_313327003.txt; sourceTree = "<group>"; };
+		CAD0AFCB193B69EA00FC5B34 /* veromode_313427012.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = veromode_313427012.txt; sourceTree = "<group>"; };
+		CAD0AFCD193B69F500FC5B34 /* zara_0693_329.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zara_0693_329.txt; sourceTree = "<group>"; };
+		CAD0AFD1193B6A0400FC5B34 /* zara_0706_319.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zara_0706_319.txt; sourceTree = "<group>"; };
+		CAD0AFD5193B6A1300FC5B34 /* zara_1608_303.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zara_1608_303.txt; sourceTree = "<group>"; };
+		CAF049D81931EED000B557F6 /* clothes recognization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clothes recognization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF049DB1931EED000B557F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAF049DD1931EED000B557F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAF049DF1931EED000B557F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAF049E31931EED000B557F6 /* clothes recognization-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "clothes recognization-Info.plist"; sourceTree = "<group>"; };
+		CAF049E51931EED000B557F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAF049E91931EED000B557F6 /* clothes recognization-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "clothes recognization-Prefix.pch"; sourceTree = "<group>"; };
+		CAF049EA1931EED000B557F6 /* zshAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zshAppDelegate.h; sourceTree = "<group>"; };
+		CAF049EB1931EED000B557F6 /* zshAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zshAppDelegate.m; sourceTree = "<group>"; };
+		CAF049EE1931EED000B557F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF049F01931EED000B557F6 /* zshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zshViewController.h; sourceTree = "<group>"; };
+		CAF049F11931EED000B557F6 /* zshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zshViewController.m; sourceTree = "<group>"; };
+		CAF049F31931EED000B557F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAF049F91931EED100B557F6 /* clothes recognizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clothes recognizationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF049FA1931EED100B557F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CAF04A021931EED100B557F6 /* clothes recognizationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "clothes recognizationTests-Info.plist"; sourceTree = "<group>"; };
+		CAF04A041931EED100B557F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAF04A061931EED100B557F6 /* clothes_recognizationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clothes_recognizationTests.m; sourceTree = "<group>"; };
+		CAF04A121931EFA600B557F6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CAF04A331931F18200B557F6 /* -1_conew1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-1_conew1.png"; sourceTree = "<group>"; };
+		CAF04A341931F18200B557F6 /* 1_conew1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_conew1.png; sourceTree = "<group>"; };
+		CAF04A351931F18200B557F6 /* btnsender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btnsender.h; sourceTree = "<group>"; };
+		CAF04A361931F18200B557F6 /* btnsender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btnsender.m; sourceTree = "<group>"; };
+		CAF04A371931F18200B557F6 /* jetpac.ntwk */ = {isa = PBXFileReference; lastKnownFileType = file; path = jetpac.ntwk; sourceTree = "<group>"; };
+		CAF04A381931F18200B557F6 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		CAF04A3A1931F18200B557F6 /* squarePNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squarePNG.png; sourceTree = "<group>"; };
+		CAF04A3C1931F18200B557F6 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		CAF04A3D1931F18200B557F6 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		CAF04A3E1931F18200B557F6 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		CAF04A3F1931F18200B557F6 /* webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webview.h; sourceTree = "<group>"; };
+		CAF04A401931F18200B557F6 /* webview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webview.m; sourceTree = "<group>"; };
+		CAF04A411931F18200B557F6 /* webView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = webView.xib; sourceTree = "<group>"; };
+		CAF04A421931F18200B557F6 /* webviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webviewViewController.h; sourceTree = "<group>"; };
+		CAF04A431931F18200B557F6 /* webviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webviewViewController.m; sourceTree = "<group>"; };
+		CAF04A531932099700B557F6 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		CAF470FD1945F0390074AD46 /* only_113327005.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = only_113327005.txt; sourceTree = "<group>"; };
+		CAF470FF1945F0500074AD46 /* jackjones_213427006.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jackjones_213427006.txt; sourceTree = "<group>"; };
+		CAF471011945F08A0074AD46 /* veromode_312427014.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = veromode_312427014.txt; sourceTree = "<group>"; };
+		CAF471051946067A0074AD46 /* jackjones_212427019.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jackjones_212427019.txt; sourceTree = "<group>"; };
+		CAF4710919460A900074AD46 /* selected_412427048.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = selected_412427048.txt; sourceTree = "<group>"; };
+		CAF4710B19460AAE0074AD46 /* DeepBelief.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeepBelief.framework; path = "clothes recognization/DeepBelief.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF049D51931EED000B557F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF4710C19460AAE0074AD46 /* DeepBelief.framework in Frameworks */,
+				CAF04A131931EFA600B557F6 /* Accelerate.framework in Frameworks */,
+				CAF049DE1931EED000B557F6 /* CoreGraphics.framework in Frameworks */,
+				CAF049E01931EED000B557F6 /* UIKit.framework in Frameworks */,
+				CAF049DC1931EED000B557F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF049F61931EED100B557F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF049FB1931EED100B557F6 /* XCTest.framework in Frameworks */,
+				CAF049FD1931EED100B557F6 /* UIKit.framework in Frameworks */,
+				CAF049FC1931EED100B557F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA2A55B1193B813700D0498F /* clothes resourse */ = {
+			isa = PBXGroup;
+			children = (
+				CAD0AFA7193B695300FC5B34 /* basichouse_HMCA723A.txt */,
+				CAD0AFA9193B695C00FC5B34 /* basichouse_HMJP226C.txt */,
+				CA68D0981945A7BC00687719 /* only_113427003.txt */,
+				CAF470FD1945F0390074AD46 /* only_113327005.txt */,
+				CA68D0961945A7B300687719 /* only_113327021.txt */,
+				CAD0AFB7193B699E00FC5B34 /* only_113327003.txt */,
+				CA68D0A01945A7E700687719 /* zara_0706_326.txt */,
+				CAD0AFD1193B6A0400FC5B34 /* zara_0706_319.txt */,
+				CAD0AFD5193B6A1300FC5B34 /* zara_1608_303.txt */,
+				CAD0AFCD193B69F500FC5B34 /* zara_0693_329.txt */,
+				CA68D09E1945A7DD00687719 /* zara_0706_304.txt */,
+				CA68D0A21945A7F100687719 /* zara_6096_451.txt */,
+				CAF470FF1945F0500074AD46 /* jackjones_213427006.txt */,
+				CA68D0A41945AF7B00687719 /* jackjones_212427006.txt */,
+				CAD0AFAD193B697500FC5B34 /* jackjones_212408029.txt */,
+				CAD0AFB3193B699000FC5B34 /* jackjones_212427021.txt */,
+				CAF471051946067A0074AD46 /* jackjones_212427019.txt */,
+				CA68D0921945A79700687719 /* jackjones_212427017.txt */,
+				CA68D09A1945A7C700687719 /* selected_412427040.txt */,
+				CAD0AFBF193B69BB00FC5B34 /* selected_412427014.txt */,
+				CAF4710919460A900074AD46 /* selected_412427048.txt */,
+				CA68D0A61945AFC100687719 /* veromode_313427011.txt */,
+				CAD0AFCB193B69EA00FC5B34 /* veromode_313427012.txt */,
+				CAF471011945F08A0074AD46 /* veromode_312427014.txt */,
+				CAD0AFC7193B69DE00FC5B34 /* veromode_313327003.txt */,
+			);
+			name = "clothes resourse";
+			sourceTree = "<group>";
+		};
+		CA2A55B2193B818100D0498F /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				CAF04A3A1931F18200B557F6 /* squarePNG.png */,
+				CAF04A341931F18200B557F6 /* 1_conew1.png */,
+				CAF04A381931F18200B557F6 /* line.png */,
+				CAF04A331931F18200B557F6 /* -1_conew1.png */,
+			);
+			name = picture;
+			sourceTree = "<group>";
+		};
+		CA2A55B3193B81AA00D0498F /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				CAF04A351931F18200B557F6 /* btnsender.h */,
+				CAF04A361931F18200B557F6 /* btnsender.m */,
+				CAF04A421931F18200B557F6 /* webviewViewController.h */,
+				CAF04A431931F18200B557F6 /* webviewViewController.m */,
+				CAF04A3F1931F18200B557F6 /* webview.h */,
+				CAF04A401931F18200B557F6 /* webview.m */,
+				CAF04A411931F18200B557F6 /* webView.xib */,
+			);
+			name = webview;
+			sourceTree = "<group>";
+		};
+		CAF049CF1931EED000B557F6 = {
+			isa = PBXGroup;
+			children = (
+				CAF049E11931EED000B557F6 /* clothes recognization */,
+				CAF04A001931EED100B557F6 /* clothes recognizationTests */,
+				CAF049DA1931EED000B557F6 /* Frameworks */,
+				CAF049D91931EED000B557F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF049D91931EED000B557F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF049D81931EED000B557F6 /* clothes recognization.app */,
+				CAF049F91931EED100B557F6 /* clothes recognizationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF049DA1931EED000B557F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF4710B19460AAE0074AD46 /* DeepBelief.framework */,
+				CAF04A121931EFA600B557F6 /* Accelerate.framework */,
+				CAF049DB1931EED000B557F6 /* Foundation.framework */,
+				CAF049DD1931EED000B557F6 /* CoreGraphics.framework */,
+				CAF049DF1931EED000B557F6 /* UIKit.framework */,
+				CAF049FA1931EED100B557F6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF049E11931EED000B557F6 /* clothes recognization */ = {
+			isa = PBXGroup;
+			children = (
+				CAF049EA1931EED000B557F6 /* zshAppDelegate.h */,
+				CAF049EB1931EED000B557F6 /* zshAppDelegate.m */,
+				CAF049F01931EED000B557F6 /* zshViewController.h */,
+				CAF049F11931EED000B557F6 /* zshViewController.m */,
+				CAF049ED1931EED000B557F6 /* Main.storyboard */,
+				CAF04A3B1931F18200B557F6 /* SVProgressHUD */,
+				CA2A55B3193B81AA00D0498F /* webview */,
+				CAF049F31931EED000B557F6 /* Images.xcassets */,
+				CAF049E21931EED000B557F6 /* Supporting Files */,
+			);
+			path = "clothes recognization";
+			sourceTree = "<group>";
+		};
+		CAF049E21931EED000B557F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF04A371931F18200B557F6 /* jetpac.ntwk */,
+				CA2A55B2193B818100D0498F /* picture */,
+				CA2A55B1193B813700D0498F /* clothes resourse */,
+				CAF049E31931EED000B557F6 /* clothes recognization-Info.plist */,
+				CAF04A531932099700B557F6 /* main.mm */,
+				CAF049E41931EED000B557F6 /* InfoPlist.strings */,
+				CAF049E91931EED000B557F6 /* clothes recognization-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAF04A001931EED100B557F6 /* clothes recognizationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF04A061931EED100B557F6 /* clothes_recognizationTests.m */,
+				CAF04A011931EED100B557F6 /* Supporting Files */,
+			);
+			path = "clothes recognizationTests";
+			sourceTree = "<group>";
+		};
+		CAF04A011931EED100B557F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF04A021931EED100B557F6 /* clothes recognizationTests-Info.plist */,
+				CAF04A031931EED100B557F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAF04A3B1931F18200B557F6 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CAF04A3C1931F18200B557F6 /* SVProgressHUD.bundle */,
+				CAF04A3D1931F18200B557F6 /* SVProgressHUD.h */,
+				CAF04A3E1931F18200B557F6 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF049D71931EED000B557F6 /* clothes recognization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF04A0A1931EED100B557F6 /* Build configuration list for PBXNativeTarget "clothes recognization" */;
+			buildPhases = (
+				CAF049D41931EED000B557F6 /* Sources */,
+				CAF049D51931EED000B557F6 /* Frameworks */,
+				CAF049D61931EED000B557F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "clothes recognization";
+			productName = "clothes recognization";
+			productReference = CAF049D81931EED000B557F6 /* clothes recognization.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF049F81931EED100B557F6 /* clothes recognizationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF04A0D1931EED100B557F6 /* Build configuration list for PBXNativeTarget "clothes recognizationTests" */;
+			buildPhases = (
+				CAF049F51931EED100B557F6 /* Sources */,
+				CAF049F61931EED100B557F6 /* Frameworks */,
+				CAF049F71931EED100B557F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF049FF1931EED100B557F6 /* PBXTargetDependency */,
+			);
+			name = "clothes recognizationTests";
+			productName = "clothes recognizationTests";
+			productReference = CAF049F91931EED100B557F6 /* clothes recognizationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF049D01931EED000B557F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = zsh;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "zsh-tony";
+				TargetAttributes = {
+					CAF049F81931EED100B557F6 = {
+						TestTargetID = CAF049D71931EED000B557F6;
+					};
+				};
+			};
+			buildConfigurationList = CAF049D31931EED000B557F6 /* Build configuration list for PBXProject "clothes recognization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF049CF1931EED000B557F6;
+			productRefGroup = CAF049D91931EED000B557F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF049D71931EED000B557F6 /* clothes recognization */,
+				CAF049F81931EED100B557F6 /* clothes recognizationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF049D61931EED000B557F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF049F41931EED000B557F6 /* Images.xcassets in Resources */,
+				CAD0AFCE193B69F500FC5B34 /* zara_0693_329.txt in Resources */,
+				CAD0AFA8193B695300FC5B34 /* basichouse_HMCA723A.txt in Resources */,
+				CAF04A491931F18200B557F6 /* line.png in Resources */,
+				CAF049E61931EED000B557F6 /* InfoPlist.strings in Resources */,
+				CAD0AFB8193B699E00FC5B34 /* only_113327003.txt in Resources */,
+				CAD0AFCC193B69EA00FC5B34 /* veromode_313427012.txt in Resources */,
+				CA68D0931945A79700687719 /* jackjones_212427017.txt in Resources */,
+				CA68D09F1945A7DD00687719 /* zara_0706_304.txt in Resources */,
+				CAD0AFAE193B697500FC5B34 /* jackjones_212408029.txt in Resources */,
+				CA68D0991945A7BC00687719 /* only_113427003.txt in Resources */,
+				CAD0AFC8193B69DE00FC5B34 /* veromode_313327003.txt in Resources */,
+				CAF04A451931F18200B557F6 /* -1_conew1.png in Resources */,
+				CA68D09B1945A7C700687719 /* selected_412427040.txt in Resources */,
+				CAD0AFD2193B6A0400FC5B34 /* zara_0706_319.txt in Resources */,
+				CA68D0A11945A7E700687719 /* zara_0706_326.txt in Resources */,
+				CAF04A4B1931F18200B557F6 /* squarePNG.png in Resources */,
+				CAF4710A19460A900074AD46 /* selected_412427048.txt in Resources */,
+				CAD0AFAA193B695C00FC5B34 /* basichouse_HMJP226C.txt in Resources */,
+				CA68D0971945A7B300687719 /* only_113327021.txt in Resources */,
+				CAF04A4C1931F18200B557F6 /* SVProgressHUD.bundle in Resources */,
+				CA68D0A71945AFC100687719 /* veromode_313427011.txt in Resources */,
+				CAD0AFB4193B699000FC5B34 /* jackjones_212427021.txt in Resources */,
+				CA68D0A51945AF7B00687719 /* jackjones_212427006.txt in Resources */,
+				CAF471061946067B0074AD46 /* jackjones_212427019.txt in Resources */,
+				CAF049EF1931EED000B557F6 /* Main.storyboard in Resources */,
+				CAF04A481931F18200B557F6 /* jetpac.ntwk in Resources */,
+				CAF471021945F08A0074AD46 /* veromode_312427014.txt in Resources */,
+				CAF04A4F1931F18200B557F6 /* webView.xib in Resources */,
+				CAF04A461931F18200B557F6 /* 1_conew1.png in Resources */,
+				CAF470FE1945F0390074AD46 /* only_113327005.txt in Resources */,
+				CAD0AFD6193B6A1300FC5B34 /* zara_1608_303.txt in Resources */,
+				CA68D0A31945A7F100687719 /* zara_6096_451.txt in Resources */,
+				CAD0AFC0193B69BB00FC5B34 /* selected_412427014.txt in Resources */,
+				CAF471001945F0500074AD46 /* jackjones_213427006.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF049F71931EED100B557F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF04A051931EED100B557F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF049D41931EED000B557F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF049EC1931EED000B557F6 /* zshAppDelegate.m in Sources */,
+				CAF049F21931EED000B557F6 /* zshViewController.m in Sources */,
+				CAF04A4D1931F18200B557F6 /* SVProgressHUD.m in Sources */,
+				CAF04A541932099700B557F6 /* main.mm in Sources */,
+				CAF04A501931F18200B557F6 /* webviewViewController.m in Sources */,
+				CAF04A471931F18200B557F6 /* btnsender.m in Sources */,
+				CAF04A4E1931F18200B557F6 /* webview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF049F51931EED100B557F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF04A071931EED100B557F6 /* clothes_recognizationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF049FF1931EED100B557F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF049D71931EED000B557F6 /* clothes recognization */;
+			targetProxy = CAF049FE1931EED100B557F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF049E41931EED000B557F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF049E51931EED000B557F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAF049ED1931EED000B557F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF049EE1931EED000B557F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF04A031931EED100B557F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF04A041931EED100B557F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF04A081931EED100B557F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liang Zhenjing (JG8C969LEW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liang Zhenjing (JG8C969LEW)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8E3941EF-A3A3-45D9-8CC2-7C1E0A00124D";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAF04A091931EED100B557F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liang Zhenjing (JG8C969LEW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liang Zhenjing (JG8C969LEW)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8E3941EF-A3A3-45D9-8CC2-7C1E0A00124D";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF04A0B1931EED100B557F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liang Zhenjing (JG8C969LEW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liang Zhenjing (JG8C969LEW)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "clothes recognization/clothes recognization-Prefix.pch";
+				INFOPLIST_FILE = "clothes recognization/clothes recognization-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8E3941EF-A3A3-45D9-8CC2-7C1E0A00124D";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAF04A0C1931EED100B557F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liang Zhenjing (JG8C969LEW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liang Zhenjing (JG8C969LEW)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+					"$(PROJECT_DIR)/clothes",
+					recognization,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "clothes recognization/clothes recognization-Prefix.pch";
+				INFOPLIST_FILE = "clothes recognization/clothes recognization-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8E3941EF-A3A3-45D9-8CC2-7C1E0A00124D";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAF04A0E1931EED100B557F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/clothes recognization.app/clothes recognization";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "clothes recognization/clothes recognization-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "clothes recognizationTests/clothes recognizationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CAF04A0F1931EED100B557F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/clothes recognization.app/clothes recognization";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "clothes recognization/clothes recognization-Prefix.pch";
+				INFOPLIST_FILE = "clothes recognizationTests/clothes recognizationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF049D31931EED000B557F6 /* Build configuration list for PBXProject "clothes recognization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF04A081931EED100B557F6 /* Debug */,
+				CAF04A091931EED100B557F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF04A0A1931EED100B557F6 /* Build configuration list for PBXNativeTarget "clothes recognization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF04A0B1931EED100B557F6 /* Debug */,
+				CAF04A0C1931EED100B557F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF04A0D1931EED100B557F6 /* Build configuration list for PBXNativeTarget "clothes recognizationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF04A0E1931EED100B557F6 /* Debug */,
+				CAF04A0F1931EED100B557F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF049D01931EED000B557F6 /* Project object */;
+}
